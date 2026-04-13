@@ -1,0 +1,97 @@
+.footer {
+  background: #e50914;
+  color: #fff;
+  padding: 40px 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+.footer-col h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.footer-col p,
+.footer-col li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.brand .logo {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.brand p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.social-icons svg {
+  background: #fff;
+  color: #000;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.products {
+  display: flex;
+  gap: 15px;
+}
+
+.product {
+  text-align: center;
+}
+
+.product img {
+  width: 100px;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.playstore {
+  margin-top: 15px;
+  width: 150px;
+}
+
+.footer-bottom {
+  background: #111;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
